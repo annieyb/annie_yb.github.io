@@ -1,0 +1,507 @@
+@media (min-width: 1024px) and (max-width: 1440px) { 
+
+html,body {
+  width: 100vw;
+  height: 100vh;
+  margin:0;
+  overflow:hidden;
+  box-sizing: border-box;
+  overflow: scroll;
+  font-family:"PlantagenetCherokee";
+}
+
+
+#mainpictures {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  position: absolute;
+  width: 50%;
+  height: 85%;
+  left: 330px;
+  padding-top: 10px;
+
+ 
+}
+
+.pictures {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+
+#flowers {
+  width: 100%;
+  height: 100%;
+  opacity:0.3;
+}
+
+
+#selfie {
+  width: 200px;
+  height:150px;
+  border-radius: 50%;
+  top: 250px;
+  position: absolute;
+  align-self: center;
+}
+
+
+#navbar{
+  background-color: #FADFDF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  bottom: 0.5px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+}
+
+
+.tablink{
+  background-color: inherit;
+  width: 20%;
+  position: relative;
+  bottom: 10px;
+  padding: 10px;
+  font-family:"PlantagenetCherokee";
+  font-size: 20px;
+  color: #343434;
+  letter-spacing: 1px;
+
+}
+
+#profile {
+  position: absolute;
+  top: 480px;
+  width:100%;
+  height: 100vh;
+}
+
+
+
+#annie{
+  background-color: pink;
+  position:relative;
+  top: 60px;
+  left:35px;
+  height: 100%;
+  overflow: scroll;
+
+
+}
+
+
+.tabcontent{
+  color: white;
+  display: none;
+  position:relative;
+  top: 10px;
+  width:95%;
+
+
+}
+
+.topic1 {
+  position: relative;
+  top: 10px;
+  width:100%;
+  height: 7%;
+  text-align: center;
+
+}
+
+.profile_content {
+  position: relative;
+  width: 90vw;
+  height: 100vh;
+  text-align: justify;
+  letter-spacing: 1px;
+  top: 1px;
+  left: 30px;
+  color:#454545;
+  font-family: Charter;
+
+}
+
+.welcome {
+  position:relative;
+  bottom: 150px;
+  width:100%;
+  height: 20%;
+  text-align: center;
+  color:white;
+
+}
+
+.selfie{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 200px;
+  left: 100px;
+  width: 80vw;
+  height: 50vh;
+  align-items: center;
+
+}
+
+.annie_pictures {  
+  width: 390px;
+  height: 280px;
+  position: relative;
+  top: 10px;
+  bottom: 35px;
+  left: 50px;
+
+}
+
+
+.photo {
+  width: 280px;
+  height: 250px;
+  transform: scale(1);
+  position: relative;
+  padding-right: 70px;
+  top:10px;
+  left:10px;
+}
+
+.photo:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.00);
+  transition-duration: 0.6s;
+}
+
+
+.me {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 400px;
+  left:1px;
+  border-radius:20px;
+
+
+}
+
+.flowers{
+  opacity: 0.3;
+  width:100%;
+  height: 80%;
+
+}
+
+#perspective {
+  background-color: #FFE4E2;
+  position:relative;
+  top: 60px;
+  left:35px;
+  height: 100%;
+  overflow: scroll;
+
+}
+
+.topic2 { 
+  text-align: center;
+  position: relative;
+  width:100%;
+  height: 12%;
+
+}
+
+.topic_2{
+  width:30%;
+  height: 7%;
+  position: absolute;
+  top: 8px;
+  right: 430px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+
+}
+
+.pro {
+  width: 500px
+  height: 500px;
+  position: relative;
+  right:150px;
+
+
+}
+
+
+.personalization {
+  width: 100%;
+  height: 40%;
+}
+
+.personal {
+  width: 70%;
+  height: 40%;
+  position: absolute;
+  top: 90px;
+  right: 180px;
+  opacity: 0.5;
+
+}
+
+.title {
+  width: 70%;
+  height: 30%;
+  position: relative;
+  top: 140px;
+  left: 220px;
+  text-align: center;
+  font-size: 30px;
+  color:#434343;
+
+
+}
+.thoughts { 
+  width: 90vw;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  text-align: justify;
+  font-family: Charter;
+  letter-spacing: 1px;
+  color:#434343;
+
+}
+
+.break{
+  width: 90vw;
+  position: relative;
+  top: 55px;
+  left: 70px;
+}
+
+
+.img_1 {
+  width: 20%;
+  position: relative;
+  top: 10px;
+}
+
+.img_2 {
+  width:20%;
+  position: absolute;
+  top: 15px;
+  left: 300px;
+
+}
+
+.img_3 {
+  width:20%;
+  position: relative;
+  top: 10px;
+  left: 350px;
+
+}
+
+.img_4 {
+  width:20%;
+  position: relative;
+  top: 5px;
+  left: 400px;
+}
+
+
+
+.company {
+  width: 100%;
+  height: 40%;
+}
+
+.youtube {
+  width: 70%;
+  height: 90%;
+  position: relative;
+  top: 10px;
+  left: 220px;
+  opacity: 0.5;
+
+}
+
+
+.title_1 {
+  width: 70%;
+  height: 10%;
+  position: relative;
+  left: 220px;
+  bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  color:#434343;
+
+}
+
+.thoughts_{
+  width: 90vw;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  text-align: justify;
+  font-family: Charter;
+  letter-spacing: 1px;
+  color:#434343;
+
+}
+
+
+
+.attentionspans{
+  width: 80%;
+  height: 70%;
+  
+}
+
+ 
+ .attention {
+  width: 70%;
+  height: 70%;
+  position: relative;
+  top: 30px;
+  left: 300px;
+  opacity: 0.5;
+
+
+ }
+ .title_2 { 
+  width: 70%;
+  height: 10%;
+  position: relative;
+  left: 300px;
+  bottom: 200px;
+  text-align: center;
+  font-size: 30px;
+  color:#434343;
+
+ }
+
+ .thoughts_1 {
+  width: 90vw;
+  position: relative;
+  bottom:100px;
+  left: 30px;
+  text-align: justify;
+  font-family: Charter;
+  letter-spacing: 1px;
+  color:#434343;
+ }
+
+.latino {
+  width: 80%;
+  height: 50%;
+  position: relative;
+  top:10px
+}
+
+.latin{
+  width: 80%;
+  height: 80%;
+  position: relative;
+  bottom: 90px;
+  left: 260px;
+  opacity: 0.5;
+}
+
+
+.title_4 {
+  width: 80%;
+  height: 10%;
+  position: absolute;
+  top: 40px;
+  left: 260px;
+  text-align: center;
+  font-size: 30px;
+  color:#434343;
+
+
+}
+
+.thoughts_3{
+  width: 90vw;
+  height: 70vh;
+  position: relative;
+  left: 30px;
+  bottom: 80px;
+  text-align: justify;
+  font-family: Charter;
+  letter-spacing: 1px;
+  color:#434343;
+
+}
+
+
+.immersivejournalism {
+  width: 70vw;
+  height: 55vh;
+  position: relative;
+  bottom:70px;
+  left:200px;
+}
+
+.journalism {
+  width: 50vw;
+  height: 50vh;
+  position: relative;
+  top: 10px;
+  left: 120px;
+  opacity: 0.5;
+}
+
+.title_3 {
+  width: 70%;
+  height: 10%;
+  position: relative;
+  left: 130px;
+  bottom: 230px;
+  text-align: center;
+  font-size: 30px;
+  color:#434343;
+}
+.thoughts_2 {
+   width: 90vw;
+  height: 110vh;
+  position: relative;
+  bottom: 70px;
+  left: 30px;
+  text-align: justify;
+  font-family: Charter;
+  letter-spacing: 1px;
+  color:#434343;
+}
+
+#myexperience {
+  background-color: white;
+  position:relative;
+  top: 60px;
+  left:155px;
+  height: 100%;
+  overflow: scroll;
+  padding-top: 60px;
+  
+
+}
+
+.space{ 
+ width: 60%;
+ height:20%; 
+ position: relative;
+ top:10px;
+ left:80px;
+}
