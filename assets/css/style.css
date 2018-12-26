@@ -451,7 +451,7 @@ html,body {
   width: 70vw;
   height: 55vh;
   position: relative;
-  bottom:70px;
+  bottom:50px;
   left:200px;
 }
 
@@ -459,9 +459,10 @@ html,body {
   width: 50vw;
   height: 50vh;
   position: relative;
-  top: 10px;
+  top: 20px;
   left: 120px;
   opacity: 0.5;
+
 }
 
 .title_3 {
@@ -475,8 +476,8 @@ html,body {
   color:#434343;
 }
 .thoughts_2 {
-   width: 90vw;
-  height: 110vh;
+  width: 90vw;
+  height: 100vh;
   position: relative;
   bottom: 70px;
   left: 30px;
