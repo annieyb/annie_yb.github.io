@@ -338,11 +338,11 @@ html,body {
 
 
 .title_1 {
-  width: 70%;
-  height: 10%;
+  width: 80%;
+  height: 30%;
   position: relative;
-  left: 220px;
-  bottom: 50px;
+  left: 157px;
+  bottom: 40px;
   text-align: center;
   font-size: 30px;
   color:#434343;
@@ -466,11 +466,11 @@ html,body {
 }
 
 .title_3 {
-  width: 70%;
-  height: 10%;
+  width: 60%;
+  height: 20%;
   position: relative;
-  left: 130px;
-  bottom: 230px;
+  left: 180px;
+  bottom: 200px;
   text-align: center;
   font-size: 30px;
   color:#434343;
@@ -479,7 +479,7 @@ html,body {
   width: 90vw;
   height: 100vh;
   position: relative;
-  bottom: 70px;
+  bottom: 60px;
   left: 30px;
   text-align: justify;
   font-family: Charter;
