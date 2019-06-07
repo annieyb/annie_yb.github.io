@@ -1,4 +1,4 @@
-@media (min-width: 1024px) and (max-width: 1440px) { 
+@media (min-width: 1281px) {
 
 html,body {
   width: 100vw;
@@ -509,4 +509,6 @@ a:active {
  position: relative;
  top:10px;
  left:80px;
+}
+
 }
